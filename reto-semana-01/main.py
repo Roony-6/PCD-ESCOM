@@ -30,12 +30,23 @@ def procesar_linea(linea):
     - Suma todos
     - Retorna el resultado
     """
+    suma=0
     
+    if not linea:
+        return 0
+    elif linea.isspace():
+        return 0
     
     elementos=linea.split(",")
     
+    try:
+        for elemento in elementos:
+            suma+=int(float(limpiar_valor(elementos)))
+                    
+    except ValueError:
+        return 0
     
-
+    return suma
 
 def main():
     """
