@@ -34,15 +34,16 @@ def procesar_linea(linea):
     
     if not linea:
         return 0
-    elif linea.isspace():
-        return 0
     
     elementos=linea.split(",")
     #print(elementos)
     try:
         for elemento in elementos:
+            if elemento.isspace():
+                suma+=0
             #print(limpiar_valor(elemento))
-            suma+=int(float(limpiar_valor(elemento)))
+            else:
+                suma+=int(float(limpiar_valor(elemento)))
             
                     
     except ValueError:
