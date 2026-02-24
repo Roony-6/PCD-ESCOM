@@ -8,7 +8,7 @@ def limpiar_valor(valor):
     - Retorna el numero limpio como string
     """
     caracteres_validos='0123456789.-'
-    
+    cadena_limpia=''
     valor =valor.strip()
     
     for caracter in valor:
@@ -38,10 +38,12 @@ def procesar_linea(linea):
         return 0
     
     elementos=linea.split(",")
-    
+    #print(elementos)
     try:
         for elemento in elementos:
-            suma+=int(float(limpiar_valor(elementos)))
+            #print(limpiar_valor(elemento))
+            suma+=int(float(limpiar_valor(elemento)))
+            
                     
     except ValueError:
         return 0
@@ -54,9 +56,13 @@ def main():
     Procesa cada linea
     Imprime el resultado
     """
+    
+    
     for linea in sys.stdin:
         resultado = procesar_linea(linea)
         print(resultado)
+      
+    
 
 if __name__ == "__main__":
     main()
