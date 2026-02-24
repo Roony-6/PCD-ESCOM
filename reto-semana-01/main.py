@@ -7,9 +7,20 @@ def limpiar_valor(valor):
     - Elimina caracteres no validos
     - Retorna el numero limpio como string
     """
-    # Tu codigo aqui
-    pass
-
+    caracteres_validos='0123456789.-'
+    
+    valor =valor.strip()
+    
+    for caracter in valor:
+        if caracter in caracteres_validos:
+            cadena_limpia+=caracter
+    
+    return cadena_limpia
+            
+        
+    
+    
+    
 def procesar_linea(linea):
     """
     Procesa una linea completa:
@@ -19,8 +30,12 @@ def procesar_linea(linea):
     - Suma todos
     - Retorna el resultado
     """
-    # Tu codigo aqui
-    pass
+    
+    
+    elementos=linea.split(",")
+    
+    
+
 
 def main():
     """
