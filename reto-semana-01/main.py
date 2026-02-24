@@ -16,10 +16,7 @@ def limpiar_valor(valor):
             cadena_limpia+=caracter
     
     return cadena_limpia
-            
-        
-    
-    
+              
     
 def procesar_linea(linea):
     """
@@ -36,12 +33,15 @@ def procesar_linea(linea):
         return 0
     
     elementos=linea.split(",")
+    
+        
     #print(elementos)
     try:
         for elemento in elementos:
-            if elemento.isspace():
-                suma+=0
             #print(limpiar_valor(elemento))
+            if elemento.isspace() or elemento=="":
+                suma+=0
+            
             else:
                 suma+=int(float(limpiar_valor(elemento)))
             
