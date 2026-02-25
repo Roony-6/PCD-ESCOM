@@ -9,3 +9,5 @@ Para garantizar la integridad de los datos, el script aplica las siguientes regl
 2.  **Truncado de Decimales:** Los números decimales se truncan a su valor entero **antes** de realizar la suma (ej. `3.9` -> `3`).
 3.  **Manejo de Espacios:** Se ignoran espacios en blanco extra alrededor de los valores.
 4.  **Líneas Vacías:** Cualquier línea vacía o que contenga solo espacios devuelve un resultado de `0`.
+
+### [Codigo](./main.py)
