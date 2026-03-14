@@ -18,5 +18,6 @@ def clasificar_temperatura(celsius: float) -> float:
     else:  # > 35
         return "Extremo"
     
-def procesar_linea(linea):
+def procesar_linea(linea:str) -> str:
+    pass
     
