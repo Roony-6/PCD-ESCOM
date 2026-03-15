@@ -40,7 +40,7 @@ Desde la terminal puedes usar los siguiente comandos
  ```
 
  ### 3. Salida esperada
- El programa generará un reporte limpio en consola, ignorando los datos inválidos e imprimiendo la temperatura convertida con 1 decimal:
+ El programa generará un reporte limpio en consola, ignorando los datos inválidos e imprimiendo la temperatura convertida con 2 decimales:
 
  ```
  ciudad,temperatura_celsius,clasificacion
