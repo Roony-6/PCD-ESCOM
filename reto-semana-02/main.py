@@ -4,7 +4,6 @@ def fahrenheit_a_celsius(fahrenheit:float) -> float:
     """ Convierte Fahrenheit a Celsius."""
     return (fahrenheit - 32) * 5 / 9
 
-
 def clasificar_temperatura(celsius: float) -> float:
     """ Clasifica la temperatura segun rangos definidos."""
     
@@ -47,18 +46,12 @@ def procesar_linea(linea:str) -> str:
         ##print(e)
        return None
 
-
-    
-    
-    
-
 def main():
     #imprimir encabezado
     print("ciudad,temperatura_celsius,clasificacion")
     
     for linea in sys.stdin:
         resultado = procesar_linea(linea)
-        
         if resultado:
             print(resultado)   
     
