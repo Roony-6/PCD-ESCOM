@@ -7,6 +7,7 @@ def fahrenheit_a_celsius(fahrenheit:float) -> float:
 
 def clasificar_temperatura(celsius: float) -> float:
     """ Clasifica la temperatura segun rangos definidos."""
+    
     if celsius < 0:
         return "Congelante"
     elif celsius <= 15:  # 0 a 15
@@ -21,28 +22,33 @@ def clasificar_temperatura(celsius: float) -> float:
 def procesar_linea(linea:str) -> str:
     """ Procesa cada linea de la entrada stdin"""
 
-    if not linea:
-        return False
+    if not linea or "ciudad,temperatura" in linea: #verifica si la linea es vacia o es el encabezado
+        return None
     
-    
-    elementos= linea.strip().split()
+    elementos= linea.strip().split(',')
+    #print(elementos)
     
     if (len(elementos) != 3):
-        return False
-    if elementos[2].upper() not in ["C","F"]:
-        return False
+        return None
     
-        
+    if elementos[2].strip().upper() not in ['F','C']:
+        return None
     try:
-                
-        ciudad = elementos[0].upper()
-        grados = f"{float(elementos[1].strip()):.2f}"
-        clasificacion = clasificar_temperatura(fahrenheit_a_celsius(elementos[2]) if elementos[2] == "F" else elementos[2].upper())
-        
-    except :
-        return False
+        ciudad = elementos[0].strip()
+        #print(ciudad)
+        valor_temperatura = float(elementos[1].strip())
+        #print(valor_temperatura)
+        celsius = fahrenheit_a_celsius(valor_temperatura) if elementos[2].strip() == "F" else valor_temperatura
+        #print(celsius)
+        clasificacion = clasificar_temperatura(celsius)        
+        #print(clasificacion)
+        return f"{ciudad},{celsius:.2f},{clasificacion}"
+    except Exception as e:
+        ##print(e)
+       return None
+
+
     
-    return f"{ciudad},{grados},{clasificacion}"
     
     
 
@@ -51,8 +57,10 @@ def main():
     print("ciudad,temperatura_celsius,clasificacion")
     
     for linea in sys.stdin:
-        continue
-    
+        resultado = procesar_linea(linea)
+        
+        if resultado:
+            print(resultado)   
     
 if __name__ == "__main__":
     main()
