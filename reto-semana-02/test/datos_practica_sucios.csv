@@ -1,0 +1,101 @@
+ciudad,temperatura,unidad
+Athens,86, F 
+ Prague ,48, C 
+ Madrid ,18,C
+ Brussels ,48,C
+ Miami ,85,F
+Miami,48,F
+ Seoul ,78,C
+CDMX,abc,F
+, high , F 
+ Bogota ,66,C
+ Vienna ,73,C
+Bangkok,80, C 
+Mumbai,76,F
+ New York ,110,F
+12345,,Z
+Oslo,110,Z
+New York,24, Z 
+ Brussels ,-10,C
+ Berlin ,46, F 
+,null,K
+Berlin,95,F
+Helsinki,-4,C
+ 12345 , none , Z 
+Helsinki,null,F
+Madrid,none,F
+Rome,18,F
+Oslo,,C
+Berlin, low ,C
+Tokio,38,Unit
+Tokio,24,C
+Vienna,low, C 
+Moscow,65,F
+Bangkok,110,Fahrenheit
+Cairo,55,F
+Tokio, high ,C
+Oslo,59,C
+Unknown,none, 
+Rome,abc,C
+Paris,97, F 
+Cairo, 22.5.1 ,C
+Stockholm,22,F
+Rome,108,F
+Rome,twenty,C
+Lima,88,F
+???,low,Z
+ Moscow ,73,F
+Miami,93,C
+Rio,97, C 
+Oslo,37,F
+Mumbai,,C
+Cairo,71,F
+Paris,39,C
+ Unknown ,null,C
+Moscow,25,F
+Cairo,56, F 
+London,63,C
+Stockholm,98,F
+Paris,-2, C 
+ Berlin ,28,F
+Cairo,30,F
+???,92,Celsius
+ Brussels ,19, ??? 
+Santiago,17,F
+Stockholm,null, F 
+12345,22.5.1,Fahrenheit
+Helsinki,46,C
+Lima,82,C
+Helsinki,22.5.1,F
+Unknown,, Fahrenheit 
+Warsaw,22.5.1, F 
+Unknown,abc,Fahrenheit
+New York,60, F 
+Moscow, null ,F
+ Unknown ,, Fahrenheit 
+Santiago,-3,F
+Seoul,6,F
+Tokio,26,X
+Moscow,-8,F
+Helsinki,43,C
+Miami,-10,Z
+London,49,C
+New York,54,F
+ Toronto ,82,F
+ Athens ,45,C
+Copenhagen,-5,Z
+Athens,abc, C 
+Warsaw,49, F 
+Warsaw,6,F
+Error,,???
+???,NaN,Celsius
+Miami,33,C
+Lima,46,F
+Mumbai,99,C
+Miami,-2,Fahrenheit
+Helsinki,20,C
+Santiago,107, C 
+???,abc, K 
+12345,22.5.1, Fahrenheit 
+Cairo,104,F
+ Vienna ,51,F
