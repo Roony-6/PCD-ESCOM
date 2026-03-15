@@ -1,4 +1,5 @@
-# RETO SEMANA 1
+# RETO SEMANA 1 
+# Calculadora de sumas
 ---
 El programa lee desde la entrada estándar (`stdin`), limpia y procesa los datos siguiendo reglas de negocio estrictas, y entrega el total sumado en la salida estándar (`stdout`).
 
