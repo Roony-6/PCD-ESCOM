@@ -1,18 +1,20 @@
 import sys 
 
-def procesar_linea(linea: str) -> sthr:
+def procesar_linea(linea: str) -> tuple:
     """Funcion que procesa una linea desde la entrada stdin 
     
     Args: 
         linea: linea recibida desde stdin.
         
     Returns:
-        Linea procesada.
+        Linea procesada (tupla con los datos utiles).
         None si no cumple con las reglas de negocio
     """
+    if not linea:
+        return None
     
     columnas = linea.strip().split(',')
-    
+    #Ignoramos lineas vacias
     
     #Debe tener exactamente 4 columnas
     if len(columnas) != 4:
@@ -20,3 +22,46 @@ def procesar_linea(linea: str) -> sthr:
     
     fecha,producto,cantidad,precio_unitario = columnas
     
+    # Verificamos datos numericos cantidad (int) precio_unitario(float)
+    try:
+        producto = producto.strip()
+        cantidad = int(cantidad.strip())
+        precio_unitario = float(precio_unitario.strip())
+        return producto,cantidad,precio_unitario
+    
+    except Exception as e:
+        return None
+
+def guardar_datos(producto:str, cantidad:int, precio_unitario:float,productos = {}):
+    if producto not in productos:
+        productos[producto] = {"unidades": 0,
+                               "ingresos_totales": 0}
+    productos[producto]["unidades"] += cantidad
+    productos[producto]["ingresos_totales"] += precio_unitario*cantidad
+    return productos
+    
+       
+def calcular_precio_promedio(producto:dict) -> float:
+    """"Calcula el precio promedio de cada producto en el registro productos"""
+    try:
+        return producto.get("ingreso") / producto.get("unidades") 
+        
+    except Exception:
+        return None
+    
+def main():
+    productos = {}
+      
+    for linea in sys.stdin:
+        
+        resultado = procesar_linea(linea)
+        if resultado:
+            productos = guardar_datos(*resultado, productos)
+            print(productos)
+            
+#productos={}
+#resultado = procesar_linea("")
+#if resultado:
+#    print(resultado)
+#    productos = guardar_datos(*resultado, productos)
+#    print(productos)
