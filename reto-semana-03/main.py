@@ -30,16 +30,7 @@ def procesar_linea(linea: str) -> tuple:
         return producto,cantidad,precio_unitario
     
     except Exception as e:
-        return None
-
-def guardar_datos(producto:str, cantidad:int, precio_unitario:float,productos = {}):
-    if producto not in productos:
-        productos[producto] = {"unidades": 0,
-                               "ingresos_totales": 0}
-    productos[producto]["unidades"] += cantidad
-    productos[producto]["ingresos_totales"] += precio_unitario*cantidad
-    return productos
-    
+        return None    
        
 def calcular_precio_promedio(producto:dict) -> float:
     """"Calcula el precio promedio de cada producto en el registro productos"""
@@ -48,7 +39,23 @@ def calcular_precio_promedio(producto:dict) -> float:
         
     except Exception:
         return None
+
+def almacenar_datos(producto: str, cantidad: int, precio_unitario:float, productos: dict):
+    """"Almacena los datos de forma estructurada
+
+        Args: producto, precio_unitario, cantidad
+        
+        Returns: 
+    """
+    if producto not in productos:
+        productos[producto]={"unidades":0,
+                             "ingresos_totales":0}
+        productos[producto]["unidades"]+=cantidad
+        productos[producto]["ingresos_totales"]+=precio_unitario
     
+   
+
+
 def main():
     productos = {}
       
@@ -56,8 +63,14 @@ def main():
         
         resultado = procesar_linea(linea)
         if resultado:
-            productos = guardar_datos(*resultado, productos)
-            print(productos)
+            
+            producto,cantidad,precio_unitario=resultado
+            almacenar_datos(producto,cantidad,precio_unitario,productos)
+            
+            
+    print(productos)
+main()
+            
             
 #productos={}
 #resultado = procesar_linea("")
