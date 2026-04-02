@@ -31,12 +31,20 @@ def almacenar_datos(producto: str, cantidad: int, precio_unitario: float, produc
     productos[producto]["ingresos_totales"] += precio_unitario * cantidad  
 
 def generar_resumen(productos: dict):
-    """Imprime el reporte CSV final."""
+    "Genera el resumen de ventas"
     print("producto,unidades_vendidas,ingreso_total,precio_promedio")
-    for producto, data in productos.items():
+    
+    # Ordenar por ingreso descendente antes de imprimir
+    ordenados = sorted(
+        productos.items(),
+        key=lambda x: x[1]["ingresos_totales"],
+        reverse=True
+    )
+    
+    for producto, data in ordenados:
         unidades = data["unidades"]
         ingresos = data["ingresos_totales"]
-        promedio = ingresos / unidades if unidades else 0.0  # evita error de division por cero
+        promedio = ingresos / unidades if unidades else 0.0
         print(f"{producto},{unidades},{ingresos:.2f},{promedio:.2f}")
 
 
