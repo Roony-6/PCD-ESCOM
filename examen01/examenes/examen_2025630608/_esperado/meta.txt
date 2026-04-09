@@ -1,0 +1,12 @@
+variante=mecanico
+matricula=2025630608
+decimales=2
+n_registros_validos=913
+n_grupos=8
+hash_datos=5e5b4e94488cf943acec8178956bdee6daccf97ae2bd569e0d12bc9cfad79ab4
+archivo_datos=revisiones_neumaticos.csv
+clase_0=Muy baja,None,1.59
+clase_1=Baja,1.59,1.92
+clase_2=Normal,1.92,2.88
+clase_3=Alta,2.88,3.58
+clase_4=Peligrosa,3.58,None
