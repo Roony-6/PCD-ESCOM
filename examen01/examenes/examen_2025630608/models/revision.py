@@ -8,7 +8,23 @@ class Revision:
         self.tipo_vehiculo = tipo_vehiculo
     
     def clasificar(self):
-        pass
+        """
+        Clasifica el vehiculo segun la presion
+        Returns:
+            clasificacion: str clasificacion del vehiculo
+        
+        """
+        if self.presion_bar < 1.59:
+            return "Muy baja"
+        elif self.presion_bar <= 1.92:
+            return "Baja"
+        elif self.presion_bar <= 2.88:
+            return "Normal"
+        elif self.presion_bar < 3.58:
+            return "Alta"
+        elif self.presion_bar >= 3.58:
+            return "Peligrosa"
+        
     
     def __str__(self):
         pass

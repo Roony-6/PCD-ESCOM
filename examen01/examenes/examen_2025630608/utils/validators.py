@@ -9,13 +9,42 @@ def validar_linea_vacia(fila:str)->bool:
     else:
         True
         
-def validar_numero_columnas(fila: str) -> bool:
+def validar_numero_columnas(numero_columnas: int, len_encabezado: int) -> bool:
     """Valida si el numero de columnas es valido
-        Args: fila: fila
-        Returns: bool: False si el numero de columnas no es 5
-                        True si el numero de columnas es exactamente 5"""
-    columnas = fila.split(",").strip()
-    return len(columnas) == 5
+        Args: numero_columnas: numero de columnas  
+              len_encabezado: total de columnas del csv
+        Returns: bool: False si el numero de columnas no es igual al numero de columnas del encabezado
+                        True si el numero de columnas exactamente igual a los datos del encabezado"""
+    
+    if numero_columnas == len_encabezado:
+        return True
+    else:
+        False
+def validar_id_revision(id_revision):
+    """
+    Valida que el id no este vacio.
+    
+    Args:
+        id: El id d a validar
+    Returns:
+        bool: True si es valido, False si no
+    """
+    if not id_revision or not str(id_revision).strip():
+        return False
+    return True
+
+def validar_vehiculo(vehiculo):
+    """
+    Valida que el vehiculo no este vacio.
+    
+    Args:
+        vvehiculo: El vehiculo d a validar 
+    Returns:
+        bool: True si es valido, False si no
+    """
+    if not vehiculo or not str(vehiculo).strip():
+        return False
+    return True
 
 def validar_presion(presion: str) -> bool:
     """
@@ -43,20 +72,19 @@ def validar_unidades(unidad: str) -> bool:
         bool: true si es valida, False si no
     """
     return unidad in ["PSI", "bar"]
-     
-def validar_fila(fila: str) -> bool:
+
+def validar_registro(id_revision,vehiculo,presion,unidad,tipo_vehiculo ) -> bool:
     """Funcion que valida si una linea de la entrada stdin es valida
         
         Args: str linea
         
         Returns: True o False"""
-    columnas = []
-    if not validar_linea_vacia(fila):
-        return False,"Linea vacia" #verificamos linea vacia
-    if not validar_numero_columnas(fila=fila):
-        return False, "No son 5 datos"
-    id_revision,vehiculo,presion,unidad,tipo_vehiculo = fila.split(',').strip()
     
+    
+    if not validar_id_revision(id_revision):
+        return False, "id invalido"
+    if not validar_vehiculo(vehiculo):
+        return False, "El vehiculo es vacio"
     if not validar_presion(presion=presion):
         return False, "La presion no es valor numerico valido"
     if not validar_unidades(unidad=unidad):
