@@ -58,21 +58,17 @@ def generar_reporte_detalle(registros,RUTA_ARCHIVO_REPORTE_DETALLE):
     
             
 
-def generar_reporte_resumen(registros,RUTA_ARCHIVO_REPORTE_RESUMEN):
+def generar_reporte_resumen(lista_ordenada, RUTA_ARCHIVO_REPORTE_RESUMEN):
     """
-    Escribe el reporte detalle .
+    Agrupa los registros por tipo de vehículo, calcula métricas y genera el CSV.
+    """
     
-    Args:
-        registros: Lista de objetos Producto
-        ruta_archivo: Ruta donde guardar el CSV
-    """
-    encabezados = ["tipo_vehiculo","conteo","promedio","maximo"]
+    # Escritura del archivo
+    encabezados = ["tipo_vehiculo", "conteo", "promedio", "maximo"]
     
     with open(RUTA_ARCHIVO_REPORTE_RESUMEN, 'w', encoding='utf-8') as archivo:
         archivo.write(','.join(encabezados) + '\n')
         
-        # Escribir datos
-      #  for registro in registros:
-      #      linea = f"{registro.tipo_vehiculo},{co},{registro.tipo_vehiculo},{registro.presion_bar:.2f},"
-      #      linea += f"{registro.clasificar()}"
-      #      archivo.write(linea + '\n')
+        for fila in lista_ordenada:
+            linea = f"{fila['tipo_vehiculo']},{fila['conteo']},{fila['promedio']:.2f},{fila['maximo']:.2f}"
+            archivo.write(linea + '\n')
