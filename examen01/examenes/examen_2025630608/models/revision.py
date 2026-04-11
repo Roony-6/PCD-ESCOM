@@ -27,6 +27,6 @@ class Revision:
         
     
     def __str__(self):
-        pass
+        return f"id: {self.id_revision}, vehiculo: {self.vehiculo}, presion bar: {self.presion_bar}, tipo:{self.tipo_vehiculo}"
     def __repr__(self):
-        pass
+        return f"Revision(id='{self.id_revision}', vehiculo='{self.vehiculo}',presion_bar={self.presion_bar},tipo='{self.tipo_vehiculo}'"
