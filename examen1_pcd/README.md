@@ -6,6 +6,7 @@ Este proyecto consiste en una herramienta de procesamiento y análisis de datos 
 Para consultar los requerimientos técnicos completos, reglas de negocio y umbrales de clasificación, consulta el:
 
 #### 👉 [EXAMEN](./examen_2025630608/enunciado.md)
+###  👉 [main.py](./examen_2025630608/main.py)
 
 ## Características Principales
 
@@ -50,6 +51,6 @@ python main.py
 
 **Elaboro: Roony Roldan Cruz**
 
-**Matricula: 2025630608**
+**boleta: 2025630608**
 
 **Materia: Programación para Ciencia de Datos**
