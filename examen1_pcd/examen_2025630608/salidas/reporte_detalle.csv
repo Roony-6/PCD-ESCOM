@@ -1,0 +1,914 @@
+id_revision,vehiculo,tipo_vehiculo,presion_bar,estado_presion
+REV-0001,Nissan Frontier 2023,Lujo,2.12,Normal
+REV-0002,Ford Ranger 2023,Pickup,3.15,Alta
+REV-0003,Chevrolet Aveo 2022,Compacto,2.08,Normal
+REV-0004,Ford Ranger 2023,Sedán,2.18,Normal
+REV-0005,Mercedes C300 2023,Pickup,2.85,Normal
+REV-0006,BMW Serie 3 2024,SUV,2.66,Normal
+REV-0007,Mercedes C300 2023,Camioneta,3.23,Alta
+REV-0008,KIA Sportage 2023,Minivan,3.22,Alta
+REV-0009,Toyota RAV4 2024,Compacto,2.48,Normal
+REV-0010,Toyota Hilux 2024,Minivan,2.67,Normal
+REV-0011,BMW Serie 3 2024,Lujo,3.43,Alta
+REV-0012,BMW Serie 3 2024,Compacto,2.14,Normal
+REV-0013,KIA Sportage 2023,Minivan,2.28,Normal
+REV-0014,BMW Serie 3 2024,Sedán,3.16,Alta
+REV-0015,BMW Serie 3 2024,Lujo,1.58,Muy baja
+REV-0016,Toyota RAV4 2024,Deportivo,3.25,Alta
+REV-0017,Mazda CX-5 2023,Pickup,1.90,Baja
+REV-0018,Ford Escape 2023,Compacto,2.41,Normal
+REV-0019,Hyundai Tucson 2024,Compacto,2.57,Normal
+REV-0020,Mercedes C300 2023,SUV,1.86,Baja
+REV-0021,Suzuki Vitara 2023,Camioneta,1.66,Baja
+REV-0022,Jeep Wrangler 2022,Deportivo,2.32,Normal
+REV-0023,Hyundai Tucson 2024,SUV,2.28,Normal
+REV-0024,Toyota RAV4 2024,Compacto,2.38,Normal
+REV-0026,Suzuki Vitara 2023,Sedán,2.72,Normal
+REV-0027,VW Tiguan 2024,Pickup,3.79,Peligrosa
+REV-0028,RAM 1500 2023,Sedán,2.49,Normal
+REV-0029,Hyundai Tucson 2024,Pickup,2.91,Alta
+REV-0030,BMW Serie 3 2024,Camioneta,1.47,Muy baja
+REV-0031,Chevrolet Silverado 2024,Deportivo,1.73,Baja
+REV-0032,Toyota RAV4 2024,Compacto,1.64,Baja
+REV-0033,RAM 1500 2023,SUV,1.87,Baja
+REV-0034,Hyundai Tucson 2024,Lujo,2.35,Normal
+REV-0035,Mazda CX-5 2023,Deportivo,3.19,Alta
+REV-0036,VW Tiguan 2024,Sedán,1.96,Normal
+REV-0037,Nissan Frontier 2023,Pickup,1.29,Muy baja
+REV-0038,Honda CR-V 2023,Camioneta,1.45,Muy baja
+REV-0039,Nissan Sentra 2024,Lujo,3.29,Alta
+REV-0040,Toyota Hilux 2024,Compacto,3.04,Alta
+REV-0042,Ford Escape 2023,SUV,3.64,Peligrosa
+REV-0043,Honda Civic 2022,Compacto,3.37,Alta
+REV-0044,BMW Serie 3 2024,SUV,3.32,Alta
+REV-0046,Mazda CX-5 2023,Lujo,3.14,Alta
+REV-0048,Mercedes C300 2023,Minivan,1.26,Muy baja
+REV-0049,Honda CR-V 2023,Pickup,1.27,Muy baja
+REV-0050,Mazda CX-5 2023,Camioneta,1.81,Baja
+REV-0051,Nissan Sentra 2024,Deportivo,2.32,Normal
+REV-0052,Subaru Outback 2024,Pickup,3.31,Alta
+REV-0053,Mercedes C300 2023,Pickup,1.79,Baja
+REV-0054,KIA Sportage 2023,SUV,2.26,Normal
+REV-0055,Mazda 3 2024,Minivan,2.44,Normal
+REV-0057,Chevrolet Silverado 2024,SUV,2.05,Normal
+REV-0058,Toyota Corolla 2023,Camioneta,1.60,Baja
+REV-0059,Suzuki Vitara 2023,Deportivo,3.23,Alta
+REV-0060,BMW Serie 3 2024,Pickup,2.14,Normal
+REV-0061,Nissan Sentra 2024,Lujo,3.53,Alta
+REV-0062,VW Jetta 2023,Sedán,3.47,Alta
+REV-0063,Honda Civic 2022,Lujo,2.28,Normal
+REV-0064,Honda CR-V 2023,SUV,2.87,Normal
+REV-0065,Subaru Outback 2024,Deportivo,1.72,Baja
+REV-0066,Ford Ranger 2023,Deportivo,3.33,Alta
+REV-0067,Toyota Hilux 2024,Compacto,3.59,Peligrosa
+REV-0068,VW Jetta 2023,Compacto,2.14,Normal
+REV-0069,Jeep Wrangler 2022,Minivan,2.99,Alta
+REV-0070,Honda Civic 2022,Minivan,1.72,Baja
+REV-0071,Ford Ranger 2023,Sedán,3.60,Peligrosa
+REV-0073,Mazda 3 2024,Lujo,2.71,Normal
+REV-0074,Suzuki Vitara 2023,SUV,3.59,Peligrosa
+REV-0075,Mazda 3 2024,SUV,1.69,Baja
+REV-0076,Audi A4 2024,Deportivo,3.53,Alta
+REV-0077,Mercedes C300 2023,Compacto,2.94,Alta
+REV-0078,Chevrolet Aveo 2022,Minivan,3.40,Alta
+REV-0079,KIA Sportage 2023,Pickup,3.71,Peligrosa
+REV-0080,RAM 1500 2023,Pickup,1.69,Baja
+REV-0081,Suzuki Vitara 2023,Camioneta,2.77,Normal
+REV-0082,Chevrolet Aveo 2022,Minivan,1.57,Muy baja
+REV-0083,BMW Serie 3 2024,Minivan,2.29,Normal
+REV-0084,Toyota RAV4 2024,Minivan,3.13,Alta
+REV-0085,RAM 1500 2023,Camioneta,2.21,Normal
+REV-0086,Toyota Corolla 2023,Compacto,2.24,Normal
+REV-0087,Mazda 3 2024,Compacto,3.55,Alta
+REV-0088,Nissan Frontier 2023,SUV,2.24,Normal
+REV-0089,Subaru Outback 2024,Lujo,3.54,Alta
+REV-0090,Audi A4 2024,SUV,2.21,Normal
+REV-0091,Suzuki Vitara 2023,Minivan,1.92,Baja
+REV-0092,Audi A4 2024,Lujo,2.23,Normal
+REV-0093,Mazda 3 2024,Pickup,3.68,Peligrosa
+REV-0094,KIA Sportage 2023,Camioneta,2.89,Alta
+REV-0095,KIA Sportage 2023,Camioneta,1.37,Muy baja
+REV-0096,Subaru Outback 2024,Sedán,3.31,Alta
+REV-0097,Toyota RAV4 2024,Camioneta,3.25,Alta
+REV-0098,Mazda 3 2024,Minivan,2.80,Normal
+REV-0099,Mercedes C300 2023,Minivan,3.29,Alta
+REV-0100,KIA Sportage 2023,Compacto,2.05,Normal
+REV-0101,Toyota Corolla 2023,Camioneta,2.14,Normal
+REV-0102,Hyundai Tucson 2024,SUV,1.38,Muy baja
+REV-0103,Chevrolet Silverado 2024,Sedán,3.25,Alta
+REV-0104,Hyundai Tucson 2024,Minivan,3.14,Alta
+REV-0106,Honda Civic 2022,Sedán,1.53,Muy baja
+REV-0107,Ford Escape 2023,Camioneta,2.70,Normal
+REV-0108,Audi A4 2024,Pickup,1.36,Muy baja
+REV-0109,Toyota Corolla 2023,Deportivo,1.68,Baja
+REV-0110,KIA Sportage 2023,Lujo,1.47,Muy baja
+REV-0111,Chevrolet Aveo 2022,Compacto,3.64,Peligrosa
+REV-0112,Toyota RAV4 2024,SUV,2.02,Normal
+REV-0113,VW Tiguan 2024,Sedán,3.73,Peligrosa
+REV-0114,Toyota RAV4 2024,Pickup,1.52,Muy baja
+REV-0115,Subaru Outback 2024,Camioneta,1.86,Baja
+REV-0116,Nissan Frontier 2023,Minivan,2.89,Alta
+REV-0117,KIA Sportage 2023,Minivan,2.52,Normal
+REV-0119,Suzuki Vitara 2023,Sedán,3.62,Peligrosa
+REV-0120,Jeep Wrangler 2022,Pickup,2.14,Normal
+REV-0121,VW Jetta 2023,Sedán,3.65,Peligrosa
+REV-0123,Mazda CX-5 2023,Compacto,3.22,Alta
+REV-0124,Toyota Hilux 2024,Compacto,2.21,Normal
+REV-0125,Suzuki Vitara 2023,Sedán,1.91,Baja
+REV-0126,Mazda 3 2024,Lujo,3.74,Peligrosa
+REV-0127,BMW Serie 3 2024,Camioneta,2.23,Normal
+REV-0128,Jeep Wrangler 2022,Compacto,1.79,Baja
+REV-0129,Mazda CX-5 2023,Lujo,2.71,Normal
+REV-0130,VW Jetta 2023,Compacto,1.60,Baja
+REV-0131,Nissan Sentra 2024,Lujo,2.84,Normal
+REV-0132,Ford Ranger 2023,Minivan,2.27,Normal
+REV-0133,Mazda 3 2024,Sedán,1.78,Baja
+REV-0134,Honda CR-V 2023,Sedán,1.30,Muy baja
+REV-0135,Toyota Corolla 2023,Sedán,2.49,Normal
+REV-0137,Jeep Wrangler 2022,Minivan,2.53,Normal
+REV-0138,Honda Civic 2022,Pickup,2.93,Alta
+REV-0139,Jeep Wrangler 2022,Lujo,3.09,Alta
+REV-0140,Chevrolet Aveo 2022,Deportivo,1.94,Normal
+REV-0141,Toyota RAV4 2024,Compacto,1.85,Baja
+REV-0142,Honda CR-V 2023,Pickup,1.22,Muy baja
+REV-0143,Toyota Hilux 2024,SUV,2.34,Normal
+REV-0144,BMW Serie 3 2024,Minivan,2.37,Normal
+REV-0145,Toyota Hilux 2024,Minivan,1.63,Baja
+REV-0146,VW Tiguan 2024,Deportivo,3.57,Alta
+REV-0147,VW Jetta 2023,Minivan,2.64,Normal
+REV-0148,KIA Sportage 2023,SUV,2.89,Alta
+REV-0149,Chevrolet Silverado 2024,Minivan,3.72,Peligrosa
+REV-0151,Chevrolet Aveo 2022,SUV,1.24,Muy baja
+REV-0152,Honda CR-V 2023,Minivan,2.90,Alta
+REV-0153,Nissan Frontier 2023,Sedán,1.41,Muy baja
+REV-0154,Nissan Sentra 2024,Lujo,3.49,Alta
+REV-0155,Audi A4 2024,Sedán,2.46,Normal
+REV-0156,Toyota Hilux 2024,SUV,1.96,Normal
+REV-0157,Toyota Corolla 2023,Camioneta,3.52,Alta
+REV-0158,BMW Serie 3 2024,Compacto,2.40,Normal
+REV-0159,VW Jetta 2023,Sedán,1.91,Baja
+REV-0160,Toyota Hilux 2024,Compacto,2.37,Normal
+REV-0161,Mazda CX-5 2023,Compacto,2.39,Normal
+REV-0162,Mercedes C300 2023,Minivan,1.41,Muy baja
+REV-0163,Chevrolet Aveo 2022,Lujo,1.61,Baja
+REV-0164,VW Jetta 2023,SUV,2.91,Alta
+REV-0165,Mazda CX-5 2023,SUV,3.60,Peligrosa
+REV-0166,Chevrolet Silverado 2024,Compacto,2.15,Normal
+REV-0167,Hyundai Tucson 2024,Minivan,1.66,Baja
+REV-0168,Mercedes C300 2023,Sedán,3.29,Alta
+REV-0169,Toyota RAV4 2024,Pickup,2.83,Normal
+REV-0170,BMW Serie 3 2024,Lujo,2.80,Normal
+REV-0171,Ford Escape 2023,Sedán,3.66,Peligrosa
+REV-0172,Mercedes C300 2023,SUV,2.73,Normal
+REV-0173,Mazda CX-5 2023,SUV,3.56,Alta
+REV-0174,Jeep Wrangler 2022,Sedán,1.25,Muy baja
+REV-0175,Toyota Corolla 2023,Lujo,2.60,Normal
+REV-0176,Toyota Hilux 2024,Compacto,1.61,Baja
+REV-0177,Mazda 3 2024,Compacto,3.33,Alta
+REV-0178,Toyota RAV4 2024,Sedán,1.68,Baja
+REV-0179,Chevrolet Silverado 2024,Sedán,1.52,Muy baja
+REV-0180,Chevrolet Aveo 2022,Camioneta,1.28,Muy baja
+REV-0181,Toyota Hilux 2024,Sedán,1.84,Baja
+REV-0182,Subaru Outback 2024,Pickup,1.21,Muy baja
+REV-0183,BMW Serie 3 2024,Deportivo,3.45,Alta
+REV-0184,Toyota Hilux 2024,Sedán,2.99,Alta
+REV-0187,Nissan Frontier 2023,Sedán,3.15,Alta
+REV-0188,Ford Ranger 2023,Compacto,2.25,Normal
+REV-0189,BMW Serie 3 2024,Compacto,2.06,Normal
+REV-0190,Nissan Sentra 2024,Compacto,3.26,Alta
+REV-0191,Nissan Sentra 2024,Camioneta,2.21,Normal
+REV-0192,KIA Sportage 2023,Deportivo,3.17,Alta
+REV-0196,VW Tiguan 2024,Pickup,2.64,Normal
+REV-0197,Toyota Hilux 2024,Compacto,2.77,Normal
+REV-0198,Ford Ranger 2023,Minivan,1.37,Muy baja
+REV-0199,RAM 1500 2023,Pickup,2.60,Normal
+REV-0200,Suzuki Vitara 2023,Lujo,2.63,Normal
+REV-0201,RAM 1500 2023,Minivan,2.66,Normal
+REV-0202,Toyota Corolla 2023,Minivan,2.28,Normal
+REV-0204,KIA Sportage 2023,SUV,1.73,Baja
+REV-0205,Nissan Frontier 2023,Minivan,3.73,Peligrosa
+REV-0206,Nissan Frontier 2023,Camioneta,1.38,Muy baja
+REV-0207,Audi A4 2024,Compacto,2.42,Normal
+REV-0208,VW Jetta 2023,Camioneta,3.27,Alta
+REV-0210,Honda CR-V 2023,Sedán,1.81,Baja
+REV-0211,Chevrolet Aveo 2022,Lujo,2.32,Normal
+REV-0212,Audi A4 2024,Pickup,3.12,Alta
+REV-0215,Ford Escape 2023,Deportivo,1.69,Baja
+REV-0216,Chevrolet Silverado 2024,Deportivo,2.21,Normal
+REV-0217,Chevrolet Silverado 2024,Pickup,3.58,Alta
+REV-0218,Honda Civic 2022,Compacto,1.46,Muy baja
+REV-0219,Mazda 3 2024,Camioneta,2.51,Normal
+REV-0222,Ford Escape 2023,SUV,2.70,Normal
+REV-0223,Chevrolet Aveo 2022,Compacto,1.95,Normal
+REV-0224,Ford Escape 2023,Sedán,1.71,Baja
+REV-0225,Hyundai Tucson 2024,Camioneta,1.46,Muy baja
+REV-0226,VW Tiguan 2024,Compacto,1.91,Baja
+REV-0228,Nissan Frontier 2023,SUV,3.20,Alta
+REV-0229,Nissan Sentra 2024,Minivan,2.00,Normal
+REV-0230,BMW Serie 3 2024,Pickup,1.24,Muy baja
+REV-0231,Mazda 3 2024,SUV,1.24,Muy baja
+REV-0232,Mazda CX-5 2023,Deportivo,2.33,Normal
+REV-0234,RAM 1500 2023,Lujo,1.38,Muy baja
+REV-0235,VW Tiguan 2024,Minivan,3.29,Alta
+REV-0236,Suzuki Vitara 2023,Compacto,1.94,Normal
+REV-0237,Chevrolet Silverado 2024,Pickup,1.27,Muy baja
+REV-0238,Mazda 3 2024,Lujo,3.55,Alta
+REV-0239,Ford Ranger 2023,Camioneta,3.61,Peligrosa
+REV-0240,Ford Ranger 2023,Lujo,2.09,Normal
+REV-0241,VW Jetta 2023,Compacto,2.68,Normal
+REV-0242,Toyota RAV4 2024,Minivan,3.61,Peligrosa
+REV-0243,Audi A4 2024,Camioneta,3.56,Alta
+REV-0244,Honda Civic 2022,Deportivo,2.65,Normal
+REV-0245,Hyundai Tucson 2024,Pickup,1.57,Muy baja
+REV-0246,Chevrolet Aveo 2022,Deportivo,2.31,Normal
+REV-0247,Jeep Wrangler 2022,Minivan,3.31,Alta
+REV-0248,Subaru Outback 2024,Sedán,2.31,Normal
+REV-0249,Hyundai Tucson 2024,Pickup,1.80,Baja
+REV-0250,Mercedes C300 2023,Pickup,1.68,Baja
+REV-0251,VW Tiguan 2024,Compacto,1.56,Muy baja
+REV-0253,Hyundai Tucson 2024,Deportivo,2.56,Normal
+REV-0254,Hyundai Tucson 2024,Minivan,2.42,Normal
+REV-0255,KIA Sportage 2023,Lujo,1.78,Baja
+REV-0256,Toyota RAV4 2024,Camioneta,1.42,Muy baja
+REV-0257,Chevrolet Silverado 2024,Pickup,3.30,Alta
+REV-0258,VW Jetta 2023,Minivan,2.37,Normal
+REV-0259,VW Tiguan 2024,Lujo,2.52,Normal
+REV-0260,Ford Ranger 2023,Camioneta,1.55,Muy baja
+REV-0261,Ford Ranger 2023,Minivan,1.44,Muy baja
+REV-0262,Subaru Outback 2024,Pickup,2.05,Normal
+REV-0263,Jeep Wrangler 2022,Deportivo,1.78,Baja
+REV-0264,Suzuki Vitara 2023,Minivan,2.95,Alta
+REV-0265,Honda Civic 2022,Deportivo,1.71,Baja
+REV-0266,Honda CR-V 2023,Pickup,3.45,Alta
+REV-0267,Mercedes C300 2023,Pickup,3.62,Peligrosa
+REV-0268,Nissan Sentra 2024,Camioneta,1.20,Muy baja
+REV-0269,Audi A4 2024,SUV,1.38,Muy baja
+REV-0270,Hyundai Tucson 2024,SUV,2.18,Normal
+REV-0271,VW Tiguan 2024,Camioneta,3.61,Peligrosa
+REV-0272,Mercedes C300 2023,SUV,3.15,Alta
+REV-0273,KIA Sportage 2023,Compacto,2.74,Normal
+REV-0274,RAM 1500 2023,Pickup,3.11,Alta
+REV-0275,Mazda CX-5 2023,Minivan,1.95,Normal
+REV-0276,Nissan Frontier 2023,Compacto,3.14,Alta
+REV-0277,Toyota Corolla 2023,SUV,1.83,Baja
+REV-0278,Nissan Frontier 2023,Compacto,3.71,Peligrosa
+REV-0279,Nissan Sentra 2024,Sedán,1.30,Muy baja
+REV-0281,Toyota RAV4 2024,Sedán,3.58,Peligrosa
+REV-0282,Mazda 3 2024,Deportivo,2.85,Normal
+REV-0283,Mazda 3 2024,Lujo,1.61,Baja
+REV-0284,Toyota RAV4 2024,Sedán,2.23,Normal
+REV-0286,VW Jetta 2023,SUV,3.19,Alta
+REV-0287,Nissan Frontier 2023,Deportivo,3.44,Alta
+REV-0288,VW Jetta 2023,SUV,1.82,Baja
+REV-0289,RAM 1500 2023,Sedán,1.23,Muy baja
+REV-0290,Subaru Outback 2024,SUV,1.62,Baja
+REV-0291,Jeep Wrangler 2022,SUV,3.08,Alta
+REV-0293,Nissan Frontier 2023,Camioneta,2.08,Normal
+REV-0294,Nissan Sentra 2024,Camioneta,3.31,Alta
+REV-0295,VW Jetta 2023,Minivan,2.68,Normal
+REV-0296,Audi A4 2024,Minivan,3.16,Alta
+REV-0297,Mercedes C300 2023,Compacto,3.34,Alta
+REV-0298,Mercedes C300 2023,Deportivo,1.55,Muy baja
+REV-0299,Honda Civic 2022,SUV,1.48,Muy baja
+REV-0301,Mazda CX-5 2023,Sedán,2.97,Alta
+REV-0302,Ford Escape 2023,Minivan,2.42,Normal
+REV-0303,VW Jetta 2023,SUV,3.71,Peligrosa
+REV-0304,Chevrolet Aveo 2022,Minivan,1.43,Muy baja
+REV-0305,Mercedes C300 2023,Deportivo,3.60,Peligrosa
+REV-0306,Honda Civic 2022,Lujo,2.52,Normal
+REV-0307,Subaru Outback 2024,Pickup,1.60,Baja
+REV-0308,Nissan Frontier 2023,Deportivo,2.41,Normal
+REV-0309,Suzuki Vitara 2023,Camioneta,2.18,Normal
+REV-0310,KIA Sportage 2023,SUV,3.50,Alta
+REV-0311,RAM 1500 2023,Minivan,1.24,Muy baja
+REV-0312,VW Jetta 2023,Sedán,2.83,Normal
+REV-0313,Chevrolet Aveo 2022,Compacto,3.50,Alta
+REV-0314,Mazda CX-5 2023,Minivan,2.41,Normal
+REV-0315,Suzuki Vitara 2023,SUV,2.09,Normal
+REV-0316,Hyundai Tucson 2024,Deportivo,2.46,Normal
+REV-0317,Honda Civic 2022,Camioneta,2.30,Normal
+REV-0318,Honda Civic 2022,Deportivo,1.33,Muy baja
+REV-0319,Ford Ranger 2023,Pickup,1.21,Muy baja
+REV-0320,Honda Civic 2022,Deportivo,1.59,Baja
+REV-0321,Suzuki Vitara 2023,Lujo,2.75,Normal
+REV-0322,Nissan Frontier 2023,Camioneta,1.24,Muy baja
+REV-0323,Chevrolet Silverado 2024,Compacto,1.83,Baja
+REV-0324,VW Jetta 2023,Sedán,2.07,Normal
+REV-0325,Honda CR-V 2023,Camioneta,2.53,Normal
+REV-0326,Honda Civic 2022,SUV,3.49,Alta
+REV-0327,Ford Escape 2023,Lujo,3.24,Alta
+REV-0328,Audi A4 2024,Lujo,3.48,Alta
+REV-0329,Nissan Frontier 2023,SUV,2.44,Normal
+REV-0330,Honda Civic 2022,Sedán,2.48,Normal
+REV-0331,Chevrolet Aveo 2022,Minivan,2.71,Normal
+REV-0332,Ford Ranger 2023,Sedán,1.81,Baja
+REV-0333,Toyota Hilux 2024,Sedán,2.14,Normal
+REV-0334,Honda Civic 2022,Camioneta,1.68,Baja
+REV-0335,RAM 1500 2023,Deportivo,3.18,Alta
+REV-0336,Ford Escape 2023,Sedán,2.40,Normal
+REV-0337,BMW Serie 3 2024,Pickup,2.66,Normal
+REV-0338,Chevrolet Aveo 2022,Compacto,3.28,Alta
+REV-0339,Suzuki Vitara 2023,Pickup,2.47,Normal
+REV-0340,Mercedes C300 2023,Sedán,2.04,Normal
+REV-0341,Ford Escape 2023,Lujo,2.88,Normal
+REV-0343,BMW Serie 3 2024,Sedán,1.47,Muy baja
+REV-0344,Subaru Outback 2024,Minivan,3.04,Alta
+REV-0347,Toyota Corolla 2023,Lujo,3.33,Alta
+REV-0348,Honda Civic 2022,Deportivo,2.52,Normal
+REV-0349,Toyota RAV4 2024,Minivan,1.36,Muy baja
+REV-0350,VW Jetta 2023,Deportivo,1.74,Baja
+REV-0351,Toyota Corolla 2023,Minivan,1.48,Muy baja
+REV-0352,Ford Escape 2023,Deportivo,2.03,Normal
+REV-0353,Chevrolet Silverado 2024,Pickup,1.79,Baja
+REV-0354,RAM 1500 2023,Camioneta,1.85,Baja
+REV-0355,Ford Escape 2023,Camioneta,3.50,Alta
+REV-0356,Audi A4 2024,Deportivo,1.40,Muy baja
+REV-0357,Suzuki Vitara 2023,Compacto,3.05,Alta
+REV-0358,Mazda 3 2024,Lujo,1.49,Muy baja
+REV-0359,Honda Civic 2022,Pickup,3.42,Alta
+REV-0360,Nissan Sentra 2024,Lujo,3.42,Alta
+REV-0361,Nissan Frontier 2023,Sedán,2.26,Normal
+REV-0362,Mazda 3 2024,Sedán,2.06,Normal
+REV-0363,Mazda 3 2024,Compacto,2.52,Normal
+REV-0365,Toyota RAV4 2024,Minivan,2.77,Normal
+REV-0366,Nissan Sentra 2024,SUV,2.39,Normal
+REV-0367,Chevrolet Silverado 2024,Camioneta,1.85,Baja
+REV-0368,KIA Sportage 2023,Compacto,3.25,Alta
+REV-0369,RAM 1500 2023,Deportivo,2.12,Normal
+REV-0370,VW Tiguan 2024,Pickup,2.41,Normal
+REV-0371,Ford Escape 2023,SUV,1.29,Muy baja
+REV-0372,Chevrolet Aveo 2022,SUV,2.92,Alta
+REV-0373,Jeep Wrangler 2022,Sedán,2.59,Normal
+REV-0374,Ford Escape 2023,Lujo,3.13,Alta
+REV-0375,Jeep Wrangler 2022,Sedán,3.36,Alta
+REV-0376,Ford Ranger 2023,SUV,2.67,Normal
+REV-0377,VW Jetta 2023,Compacto,3.76,Peligrosa
+REV-0378,VW Tiguan 2024,SUV,1.82,Baja
+REV-0379,Toyota Hilux 2024,SUV,2.67,Normal
+REV-0380,Honda Civic 2022,Camioneta,2.13,Normal
+REV-0381,Toyota Corolla 2023,Camioneta,2.86,Normal
+REV-0382,VW Tiguan 2024,Lujo,3.42,Alta
+REV-0383,Ford Ranger 2023,Pickup,2.65,Normal
+REV-0384,VW Jetta 2023,Compacto,2.52,Normal
+REV-0385,Ford Ranger 2023,Pickup,1.34,Muy baja
+REV-0386,VW Jetta 2023,Minivan,2.98,Alta
+REV-0387,Audi A4 2024,Lujo,2.07,Normal
+REV-0388,Toyota Corolla 2023,Deportivo,3.37,Alta
+REV-0389,Chevrolet Silverado 2024,Minivan,1.69,Baja
+REV-0390,VW Jetta 2023,Compacto,1.21,Muy baja
+REV-0391,Mazda CX-5 2023,Deportivo,2.06,Normal
+REV-0392,Honda Civic 2022,Deportivo,1.24,Muy baja
+REV-0393,Mazda 3 2024,Compacto,1.63,Baja
+REV-0394,KIA Sportage 2023,Sedán,3.44,Alta
+REV-0395,Mercedes C300 2023,Minivan,1.50,Muy baja
+REV-0396,Nissan Sentra 2024,Camioneta,3.37,Alta
+REV-0397,Audi A4 2024,Compacto,2.52,Normal
+REV-0398,VW Jetta 2023,Lujo,2.38,Normal
+REV-0399,Nissan Sentra 2024,Lujo,2.89,Alta
+REV-0400,Audi A4 2024,Pickup,3.71,Peligrosa
+REV-0401,Nissan Frontier 2023,Minivan,3.79,Peligrosa
+REV-0402,Chevrolet Aveo 2022,Compacto,2.31,Normal
+REV-0403,Nissan Frontier 2023,Pickup,2.85,Normal
+REV-0404,VW Jetta 2023,Pickup,2.12,Normal
+REV-0405,KIA Sportage 2023,SUV,2.45,Normal
+REV-0406,VW Tiguan 2024,Compacto,3.79,Peligrosa
+REV-0407,BMW Serie 3 2024,Pickup,3.11,Alta
+REV-0409,Mazda CX-5 2023,Minivan,2.54,Normal
+REV-0410,Chevrolet Aveo 2022,Lujo,3.35,Alta
+REV-0411,RAM 1500 2023,Compacto,1.56,Muy baja
+REV-0412,Jeep Wrangler 2022,Pickup,2.52,Normal
+REV-0413,Ford Ranger 2023,SUV,2.51,Normal
+REV-0414,Audi A4 2024,Deportivo,1.56,Muy baja
+REV-0415,KIA Sportage 2023,Sedán,2.39,Normal
+REV-0416,BMW Serie 3 2024,Deportivo,2.36,Normal
+REV-0417,Jeep Wrangler 2022,Minivan,1.61,Baja
+REV-0418,Honda Civic 2022,Minivan,3.32,Alta
+REV-0419,VW Jetta 2023,SUV,3.36,Alta
+REV-0420,Toyota Hilux 2024,Minivan,1.53,Muy baja
+REV-0421,Toyota Hilux 2024,Sedán,3.73,Peligrosa
+REV-0422,VW Jetta 2023,Compacto,1.72,Baja
+REV-0423,Hyundai Tucson 2024,Pickup,1.89,Baja
+REV-0425,Honda Civic 2022,Pickup,2.57,Normal
+REV-0426,Jeep Wrangler 2022,Lujo,2.20,Normal
+REV-0427,Honda Civic 2022,Deportivo,3.41,Alta
+REV-0428,BMW Serie 3 2024,Lujo,1.95,Normal
+REV-0429,Honda CR-V 2023,Deportivo,1.49,Muy baja
+REV-0430,Jeep Wrangler 2022,Lujo,2.82,Normal
+REV-0431,Toyota RAV4 2024,Compacto,2.35,Normal
+REV-0432,Ford Escape 2023,Minivan,1.88,Baja
+REV-0433,VW Jetta 2023,Deportivo,3.02,Alta
+REV-0434,Audi A4 2024,Deportivo,1.96,Normal
+REV-0435,BMW Serie 3 2024,Compacto,3.76,Peligrosa
+REV-0436,Chevrolet Silverado 2024,Lujo,1.71,Baja
+REV-0437,Hyundai Tucson 2024,Minivan,1.62,Baja
+REV-0438,Chevrolet Silverado 2024,Sedán,3.34,Alta
+REV-0439,Suzuki Vitara 2023,Deportivo,2.09,Normal
+REV-0440,Nissan Frontier 2023,Deportivo,2.23,Normal
+REV-0441,Mercedes C300 2023,Camioneta,2.42,Normal
+REV-0442,Jeep Wrangler 2022,Lujo,2.85,Normal
+REV-0443,VW Tiguan 2024,Deportivo,3.66,Peligrosa
+REV-0444,VW Jetta 2023,Compacto,3.41,Alta
+REV-0445,Suzuki Vitara 2023,Pickup,3.02,Alta
+REV-0446,Subaru Outback 2024,Pickup,1.21,Muy baja
+REV-0447,Mercedes C300 2023,Sedán,3.69,Peligrosa
+REV-0448,BMW Serie 3 2024,Sedán,2.12,Normal
+REV-0449,Ford Ranger 2023,Minivan,1.63,Baja
+REV-0450,Toyota Hilux 2024,Compacto,3.38,Alta
+REV-0451,KIA Sportage 2023,Compacto,2.93,Alta
+REV-0452,Mazda 3 2024,Deportivo,3.20,Alta
+REV-0453,Nissan Sentra 2024,Camioneta,1.49,Muy baja
+REV-0454,Toyota RAV4 2024,SUV,1.40,Muy baja
+REV-0455,Hyundai Tucson 2024,Minivan,3.36,Alta
+REV-0456,Nissan Frontier 2023,Lujo,3.16,Alta
+REV-0457,Honda CR-V 2023,SUV,3.25,Alta
+REV-0458,Hyundai Tucson 2024,Camioneta,1.73,Baja
+REV-0459,Subaru Outback 2024,Pickup,1.32,Muy baja
+REV-0460,Ford Ranger 2023,Deportivo,2.66,Normal
+REV-0461,Suzuki Vitara 2023,SUV,3.72,Peligrosa
+REV-0462,VW Jetta 2023,Minivan,3.16,Alta
+REV-0463,Chevrolet Aveo 2022,SUV,3.65,Peligrosa
+REV-0464,Mazda CX-5 2023,Pickup,2.75,Normal
+REV-0465,Ford Ranger 2023,Deportivo,1.62,Baja
+REV-0466,Audi A4 2024,Compacto,1.41,Muy baja
+REV-0467,Subaru Outback 2024,Minivan,3.19,Alta
+REV-0468,Subaru Outback 2024,Lujo,3.51,Alta
+REV-0469,Honda CR-V 2023,Compacto,3.28,Alta
+REV-0470,Hyundai Tucson 2024,SUV,2.52,Normal
+REV-0471,VW Jetta 2023,Pickup,2.73,Normal
+REV-0472,Honda CR-V 2023,Minivan,2.89,Alta
+REV-0473,Ford Ranger 2023,Minivan,2.31,Normal
+REV-0474,Mazda CX-5 2023,Camioneta,1.36,Muy baja
+REV-0475,Nissan Frontier 2023,Camioneta,1.61,Baja
+REV-0476,Suzuki Vitara 2023,Lujo,1.35,Muy baja
+REV-0477,Nissan Sentra 2024,Minivan,2.09,Normal
+REV-0478,Toyota Hilux 2024,Sedán,3.63,Peligrosa
+REV-0479,Chevrolet Aveo 2022,Camioneta,2.50,Normal
+REV-0480,Hyundai Tucson 2024,Compacto,1.43,Muy baja
+REV-0481,Toyota RAV4 2024,Lujo,3.61,Peligrosa
+REV-0482,VW Tiguan 2024,Pickup,3.31,Alta
+REV-0483,VW Tiguan 2024,Deportivo,2.34,Normal
+REV-0484,Nissan Frontier 2023,Sedán,1.93,Normal
+REV-0485,Toyota Hilux 2024,Lujo,1.75,Baja
+REV-0486,Toyota Corolla 2023,Compacto,3.44,Alta
+REV-0487,Hyundai Tucson 2024,Camioneta,3.27,Alta
+REV-0488,Honda CR-V 2023,Minivan,1.67,Baja
+REV-0489,Hyundai Tucson 2024,Minivan,1.66,Baja
+REV-0490,VW Tiguan 2024,Compacto,2.57,Normal
+REV-0491,Chevrolet Aveo 2022,Pickup,2.35,Normal
+REV-0492,Toyota Corolla 2023,SUV,1.90,Baja
+REV-0493,Toyota Hilux 2024,Lujo,2.55,Normal
+REV-0494,BMW Serie 3 2024,Lujo,1.29,Muy baja
+REV-0495,Toyota Hilux 2024,Pickup,1.86,Baja
+REV-0496,Mazda CX-5 2023,Camioneta,1.31,Muy baja
+REV-0497,Toyota Hilux 2024,Compacto,3.59,Peligrosa
+REV-0498,Chevrolet Silverado 2024,Deportivo,1.46,Muy baja
+REV-0499,Chevrolet Aveo 2022,Lujo,2.00,Normal
+REV-0500,Nissan Frontier 2023,Sedán,1.69,Baja
+REV-0501,Chevrolet Silverado 2024,Lujo,2.56,Normal
+REV-0502,Honda Civic 2022,Sedán,3.05,Alta
+REV-0503,VW Tiguan 2024,Compacto,1.84,Baja
+REV-0504,Toyota RAV4 2024,Minivan,1.77,Baja
+REV-0505,Mazda 3 2024,Compacto,2.82,Normal
+REV-0506,Mercedes C300 2023,Compacto,2.80,Normal
+REV-0507,BMW Serie 3 2024,Camioneta,3.34,Alta
+REV-0508,BMW Serie 3 2024,Lujo,1.77,Baja
+REV-0509,Toyota Corolla 2023,Pickup,3.19,Alta
+REV-0510,Chevrolet Aveo 2022,Minivan,2.09,Normal
+REV-0512,Honda CR-V 2023,Compacto,3.13,Alta
+REV-0513,Subaru Outback 2024,Deportivo,1.80,Baja
+REV-0514,Honda CR-V 2023,SUV,3.08,Alta
+REV-0515,Chevrolet Silverado 2024,Camioneta,1.81,Baja
+REV-0516,Toyota Hilux 2024,Sedán,1.96,Normal
+REV-0517,Jeep Wrangler 2022,Minivan,3.06,Alta
+REV-0518,Toyota Hilux 2024,Lujo,2.44,Normal
+REV-0520,Chevrolet Silverado 2024,Deportivo,3.67,Peligrosa
+REV-0521,Chevrolet Aveo 2022,Compacto,2.79,Normal
+REV-0522,Nissan Sentra 2024,Compacto,1.92,Baja
+REV-0523,Chevrolet Silverado 2024,Deportivo,1.35,Muy baja
+REV-0525,Honda Civic 2022,SUV,2.36,Normal
+REV-0526,Chevrolet Silverado 2024,Pickup,3.06,Alta
+REV-0527,Toyota Corolla 2023,Pickup,2.24,Normal
+REV-0528,Toyota Hilux 2024,Lujo,1.42,Muy baja
+REV-0529,Toyota RAV4 2024,Deportivo,3.02,Alta
+REV-0531,Mazda CX-5 2023,SUV,2.33,Normal
+REV-0532,Toyota RAV4 2024,Compacto,2.45,Normal
+REV-0533,Honda Civic 2022,Minivan,1.99,Normal
+REV-0534,Suzuki Vitara 2023,Deportivo,2.91,Alta
+REV-0535,Chevrolet Silverado 2024,SUV,1.50,Muy baja
+REV-0536,Chevrolet Silverado 2024,Camioneta,2.33,Normal
+REV-0537,KIA Sportage 2023,Lujo,3.52,Alta
+REV-0538,Jeep Wrangler 2022,Compacto,1.84,Baja
+REV-0539,Honda Civic 2022,Lujo,3.21,Alta
+REV-0540,Ford Escape 2023,Minivan,3.60,Peligrosa
+REV-0541,VW Tiguan 2024,Deportivo,1.64,Baja
+REV-0542,Hyundai Tucson 2024,Compacto,1.87,Baja
+REV-0543,Ford Escape 2023,Lujo,1.74,Baja
+REV-0544,Toyota RAV4 2024,Camioneta,1.68,Baja
+REV-0545,KIA Sportage 2023,Pickup,2.08,Normal
+REV-0546,Chevrolet Aveo 2022,Pickup,2.31,Normal
+REV-0547,Audi A4 2024,Pickup,2.17,Normal
+REV-0548,BMW Serie 3 2024,SUV,3.03,Alta
+REV-0549,Honda Civic 2022,Minivan,2.99,Alta
+REV-0550,Honda Civic 2022,Camioneta,2.08,Normal
+REV-0551,Mazda 3 2024,Minivan,2.25,Normal
+REV-0552,Toyota RAV4 2024,Compacto,1.30,Muy baja
+REV-0553,Chevrolet Aveo 2022,Camioneta,2.39,Normal
+REV-0554,Jeep Wrangler 2022,Deportivo,2.70,Normal
+REV-0556,Jeep Wrangler 2022,Minivan,3.11,Alta
+REV-0557,Jeep Wrangler 2022,Camioneta,2.70,Normal
+REV-0558,Audi A4 2024,Sedán,2.37,Normal
+REV-0559,Nissan Frontier 2023,Deportivo,2.52,Normal
+REV-0560,Jeep Wrangler 2022,Lujo,2.68,Normal
+REV-0561,Suzuki Vitara 2023,Compacto,2.74,Normal
+REV-0562,Chevrolet Aveo 2022,Lujo,1.79,Baja
+REV-0563,Chevrolet Aveo 2022,Sedán,1.43,Muy baja
+REV-0564,Chevrolet Aveo 2022,Deportivo,1.87,Baja
+REV-0565,Nissan Sentra 2024,Lujo,2.89,Alta
+REV-0566,Mercedes C300 2023,Sedán,1.57,Muy baja
+REV-0567,Audi A4 2024,SUV,3.04,Alta
+REV-0568,Nissan Frontier 2023,SUV,2.99,Alta
+REV-0569,Honda CR-V 2023,Camioneta,1.51,Muy baja
+REV-0570,Honda Civic 2022,Pickup,2.20,Normal
+REV-0572,Nissan Frontier 2023,Sedán,2.55,Normal
+REV-0573,Honda Civic 2022,Minivan,2.66,Normal
+REV-0574,Mazda 3 2024,Deportivo,3.01,Alta
+REV-0575,Hyundai Tucson 2024,Compacto,2.81,Normal
+REV-0576,Subaru Outback 2024,Minivan,1.72,Baja
+REV-0577,Toyota Hilux 2024,SUV,3.77,Peligrosa
+REV-0578,VW Tiguan 2024,Deportivo,1.28,Muy baja
+REV-0579,Subaru Outback 2024,Pickup,2.54,Normal
+REV-0580,Chevrolet Aveo 2022,Deportivo,1.68,Baja
+REV-0581,Ford Ranger 2023,Compacto,2.29,Normal
+REV-0582,Ford Escape 2023,Lujo,1.96,Normal
+REV-0583,Honda CR-V 2023,Sedán,2.96,Alta
+REV-0585,VW Jetta 2023,Camioneta,1.38,Muy baja
+REV-0586,Mazda 3 2024,SUV,3.37,Alta
+REV-0587,Jeep Wrangler 2022,Pickup,2.20,Normal
+REV-0588,Hyundai Tucson 2024,Compacto,1.82,Baja
+REV-0589,Ford Ranger 2023,SUV,3.45,Alta
+REV-0590,Chevrolet Silverado 2024,Minivan,1.88,Baja
+REV-0592,Mazda 3 2024,Sedán,3.19,Alta
+REV-0593,Toyota Corolla 2023,Pickup,1.54,Muy baja
+REV-0594,RAM 1500 2023,Deportivo,2.00,Normal
+REV-0595,Toyota Corolla 2023,Pickup,3.57,Alta
+REV-0596,Ford Ranger 2023,Deportivo,1.38,Muy baja
+REV-0597,RAM 1500 2023,Sedán,1.56,Muy baja
+REV-0598,Honda Civic 2022,Deportivo,2.20,Normal
+REV-0599,Subaru Outback 2024,Pickup,1.32,Muy baja
+REV-0600,Hyundai Tucson 2024,Minivan,3.18,Alta
+REV-0601,Ford Ranger 2023,Pickup,2.36,Normal
+REV-0602,Ford Escape 2023,Pickup,1.53,Muy baja
+REV-0603,Chevrolet Aveo 2022,Deportivo,3.01,Alta
+REV-0604,BMW Serie 3 2024,Minivan,3.54,Alta
+REV-0605,Honda Civic 2022,SUV,3.24,Alta
+REV-0606,Toyota Corolla 2023,Pickup,3.05,Alta
+REV-0607,Hyundai Tucson 2024,Deportivo,1.43,Muy baja
+REV-0608,KIA Sportage 2023,SUV,3.45,Alta
+REV-0609,Nissan Frontier 2023,Minivan,2.09,Normal
+REV-0610,Ford Ranger 2023,Pickup,3.64,Peligrosa
+REV-0611,Toyota Hilux 2024,Sedán,2.69,Normal
+REV-0614,VW Jetta 2023,Camioneta,1.55,Muy baja
+REV-0615,Honda Civic 2022,SUV,2.00,Normal
+REV-0618,KIA Sportage 2023,Minivan,3.68,Peligrosa
+REV-0619,Audi A4 2024,Deportivo,3.27,Alta
+REV-0620,Mazda CX-5 2023,Camioneta,3.75,Peligrosa
+REV-0621,RAM 1500 2023,Minivan,1.76,Baja
+REV-0622,Mercedes C300 2023,SUV,1.76,Baja
+REV-0623,Nissan Frontier 2023,Camioneta,1.45,Muy baja
+REV-0625,Jeep Wrangler 2022,Minivan,1.89,Baja
+REV-0626,Chevrolet Silverado 2024,Deportivo,1.85,Baja
+REV-0627,Jeep Wrangler 2022,Sedán,1.75,Baja
+REV-0628,Nissan Frontier 2023,Camioneta,3.42,Alta
+REV-0629,Mazda 3 2024,Deportivo,2.70,Normal
+REV-0630,Mazda CX-5 2023,Sedán,3.19,Alta
+REV-0631,VW Jetta 2023,Sedán,2.53,Normal
+REV-0632,Chevrolet Aveo 2022,Lujo,2.67,Normal
+REV-0633,Toyota Hilux 2024,Pickup,3.69,Peligrosa
+REV-0634,Chevrolet Silverado 2024,SUV,3.60,Peligrosa
+REV-0635,Toyota Hilux 2024,Minivan,1.32,Muy baja
+REV-0636,Honda CR-V 2023,SUV,2.01,Normal
+REV-0637,VW Jetta 2023,Pickup,3.36,Alta
+REV-0638,BMW Serie 3 2024,Camioneta,2.03,Normal
+REV-0640,Toyota Hilux 2024,Lujo,2.10,Normal
+REV-0641,Chevrolet Silverado 2024,Deportivo,3.66,Peligrosa
+REV-0642,Honda Civic 2022,SUV,3.03,Alta
+REV-0643,Hyundai Tucson 2024,Pickup,3.49,Alta
+REV-0644,Ford Ranger 2023,Sedán,3.00,Alta
+REV-0645,VW Tiguan 2024,Pickup,2.07,Normal
+REV-0646,Chevrolet Silverado 2024,SUV,3.39,Alta
+REV-0647,Nissan Sentra 2024,Compacto,1.79,Baja
+REV-0648,RAM 1500 2023,Sedán,2.58,Normal
+REV-0649,Honda CR-V 2023,Lujo,1.73,Baja
+REV-0650,Ford Ranger 2023,Sedán,1.33,Muy baja
+REV-0651,Subaru Outback 2024,Deportivo,3.16,Alta
+REV-0652,Honda CR-V 2023,Pickup,3.45,Alta
+REV-0653,Ford Ranger 2023,Lujo,1.82,Baja
+REV-0654,Honda Civic 2022,Pickup,3.12,Alta
+REV-0655,Toyota Corolla 2023,Sedán,2.86,Normal
+REV-0656,VW Tiguan 2024,Sedán,3.55,Alta
+REV-0657,Jeep Wrangler 2022,Sedán,2.05,Normal
+REV-0658,Subaru Outback 2024,Camioneta,3.05,Alta
+REV-0659,Chevrolet Aveo 2022,Camioneta,2.04,Normal
+REV-0660,Ford Ranger 2023,Camioneta,1.45,Muy baja
+REV-0661,VW Jetta 2023,Camioneta,2.26,Normal
+REV-0662,Nissan Frontier 2023,Sedán,2.32,Normal
+REV-0664,Nissan Frontier 2023,Camioneta,3.69,Peligrosa
+REV-0665,VW Tiguan 2024,SUV,2.81,Normal
+REV-0666,Toyota RAV4 2024,SUV,2.31,Normal
+REV-0668,Subaru Outback 2024,Camioneta,2.70,Normal
+REV-0670,Ford Ranger 2023,Deportivo,1.33,Muy baja
+REV-0671,Toyota Corolla 2023,Minivan,3.59,Peligrosa
+REV-0672,BMW Serie 3 2024,Compacto,2.94,Alta
+REV-0673,Nissan Frontier 2023,Camioneta,1.66,Baja
+REV-0674,Mercedes C300 2023,SUV,2.88,Normal
+REV-0675,Nissan Sentra 2024,Minivan,3.47,Alta
+REV-0676,RAM 1500 2023,Camioneta,3.14,Alta
+REV-0677,Audi A4 2024,Sedán,2.78,Normal
+REV-0678,Nissan Frontier 2023,Camioneta,3.26,Alta
+REV-0679,Honda CR-V 2023,Pickup,2.95,Alta
+REV-0680,Ford Ranger 2023,Minivan,3.77,Peligrosa
+REV-0681,VW Tiguan 2024,Minivan,2.98,Alta
+REV-0682,Honda CR-V 2023,Lujo,1.35,Muy baja
+REV-0683,Ford Escape 2023,Compacto,1.61,Baja
+REV-0684,Toyota Hilux 2024,Pickup,2.46,Normal
+REV-0685,Audi A4 2024,Camioneta,3.18,Alta
+REV-0686,Audi A4 2024,Deportivo,2.39,Normal
+REV-0689,Suzuki Vitara 2023,Deportivo,1.97,Normal
+REV-0690,Jeep Wrangler 2022,Minivan,2.52,Normal
+REV-0691,VW Jetta 2023,Lujo,3.10,Alta
+REV-0692,VW Jetta 2023,Minivan,3.41,Alta
+REV-0693,Ford Ranger 2023,Camioneta,2.80,Normal
+REV-0696,Chevrolet Aveo 2022,Deportivo,3.01,Alta
+REV-0697,Mercedes C300 2023,Compacto,3.17,Alta
+REV-0700,Ford Escape 2023,Deportivo,1.68,Baja
+REV-0701,Toyota RAV4 2024,Sedán,1.71,Baja
+REV-0702,Toyota Hilux 2024,Deportivo,1.47,Muy baja
+REV-0703,Jeep Wrangler 2022,Sedán,3.23,Alta
+REV-0706,KIA Sportage 2023,Camioneta,1.78,Baja
+REV-0707,KIA Sportage 2023,Compacto,3.36,Alta
+REV-0709,Ford Escape 2023,Minivan,1.76,Baja
+REV-0710,Mazda CX-5 2023,SUV,3.12,Alta
+REV-0711,Honda Civic 2022,Deportivo,1.40,Muy baja
+REV-0712,Audi A4 2024,Minivan,1.83,Baja
+REV-0714,Mazda 3 2024,Sedán,2.90,Alta
+REV-0715,VW Jetta 2023,Compacto,2.59,Normal
+REV-0716,Honda Civic 2022,Minivan,2.47,Normal
+REV-0717,Hyundai Tucson 2024,Deportivo,2.60,Normal
+REV-0718,Honda Civic 2022,Camioneta,1.26,Muy baja
+REV-0719,Mercedes C300 2023,SUV,3.71,Peligrosa
+REV-0720,VW Tiguan 2024,SUV,3.37,Alta
+REV-0721,RAM 1500 2023,Camioneta,2.96,Alta
+REV-0722,Toyota Corolla 2023,Lujo,3.71,Peligrosa
+REV-0723,VW Jetta 2023,SUV,2.64,Normal
+REV-0724,Jeep Wrangler 2022,Pickup,3.60,Peligrosa
+REV-0725,Suzuki Vitara 2023,Compacto,3.32,Alta
+REV-0727,Honda CR-V 2023,SUV,2.10,Normal
+REV-0728,Honda Civic 2022,Minivan,2.76,Normal
+REV-0729,KIA Sportage 2023,Compacto,3.55,Alta
+REV-0730,Toyota Hilux 2024,Minivan,2.47,Normal
+REV-0731,BMW Serie 3 2024,Pickup,3.11,Alta
+REV-0732,Ford Escape 2023,Camioneta,1.96,Normal
+REV-0736,Audi A4 2024,Minivan,2.18,Normal
+REV-0737,Toyota Corolla 2023,Minivan,1.43,Muy baja
+REV-0738,Suzuki Vitara 2023,Compacto,2.39,Normal
+REV-0739,Mazda 3 2024,Deportivo,1.44,Muy baja
+REV-0740,Chevrolet Silverado 2024,Camioneta,2.73,Normal
+REV-0741,Mazda CX-5 2023,Compacto,2.29,Normal
+REV-0742,Hyundai Tucson 2024,Pickup,3.27,Alta
+REV-0743,Mazda CX-5 2023,Camioneta,2.19,Normal
+REV-0746,Chevrolet Silverado 2024,Sedán,3.26,Alta
+REV-0747,Hyundai Tucson 2024,Minivan,2.78,Normal
+REV-0748,KIA Sportage 2023,Pickup,2.24,Normal
+REV-0749,Toyota RAV4 2024,Compacto,2.03,Normal
+REV-0751,RAM 1500 2023,Lujo,2.66,Normal
+REV-0752,VW Jetta 2023,Sedán,3.26,Alta
+REV-0753,Mercedes C300 2023,Pickup,2.44,Normal
+REV-0754,VW Tiguan 2024,Deportivo,2.32,Normal
+REV-0755,Toyota RAV4 2024,Pickup,3.14,Alta
+REV-0756,Suzuki Vitara 2023,Lujo,2.52,Normal
+REV-0758,Honda Civic 2022,Minivan,1.37,Muy baja
+REV-0760,Chevrolet Silverado 2024,Compacto,3.38,Alta
+REV-0761,Ford Ranger 2023,Camioneta,2.99,Alta
+REV-0762,VW Jetta 2023,Deportivo,1.81,Baja
+REV-0763,Mazda 3 2024,SUV,2.05,Normal
+REV-0764,BMW Serie 3 2024,SUV,1.81,Baja
+REV-0765,Mazda 3 2024,Minivan,2.90,Alta
+REV-0766,VW Tiguan 2024,SUV,2.73,Normal
+REV-0767,Ford Escape 2023,Minivan,2.12,Normal
+REV-0768,Suzuki Vitara 2023,Minivan,1.39,Muy baja
+REV-0769,Toyota Hilux 2024,Minivan,1.73,Baja
+REV-0770,Toyota Hilux 2024,SUV,3.22,Alta
+REV-0771,Ford Escape 2023,SUV,2.37,Normal
+REV-0772,Ford Ranger 2023,Camioneta,2.79,Normal
+REV-0773,KIA Sportage 2023,Sedán,1.42,Muy baja
+REV-0774,Chevrolet Aveo 2022,SUV,3.71,Peligrosa
+REV-0775,Nissan Sentra 2024,Lujo,3.65,Peligrosa
+REV-0776,Audi A4 2024,Sedán,3.55,Alta
+REV-0777,KIA Sportage 2023,SUV,2.70,Normal
+REV-0778,VW Jetta 2023,Lujo,3.17,Alta
+REV-0779,RAM 1500 2023,Compacto,2.35,Normal
+REV-0780,VW Tiguan 2024,Pickup,1.79,Baja
+REV-0781,Ford Ranger 2023,Minivan,3.27,Alta
+REV-0782,Nissan Frontier 2023,Deportivo,3.42,Alta
+REV-0783,Toyota RAV4 2024,Camioneta,3.72,Peligrosa
+REV-0784,KIA Sportage 2023,Camioneta,2.03,Normal
+REV-0785,Subaru Outback 2024,Camioneta,1.91,Baja
+REV-0786,Nissan Frontier 2023,SUV,1.30,Muy baja
+REV-0787,BMW Serie 3 2024,Sedán,1.95,Normal
+REV-0788,Mazda CX-5 2023,Sedán,2.43,Normal
+REV-0789,Toyota RAV4 2024,Pickup,3.18,Alta
+REV-0790,Honda CR-V 2023,Minivan,1.81,Baja
+REV-0791,VW Tiguan 2024,Lujo,1.93,Normal
+REV-0792,Toyota Corolla 2023,SUV,3.07,Alta
+REV-0793,Mazda CX-5 2023,Deportivo,1.63,Baja
+REV-0794,Mazda CX-5 2023,SUV,1.64,Baja
+REV-0795,KIA Sportage 2023,Compacto,3.16,Alta
+REV-0796,Chevrolet Aveo 2022,Minivan,2.69,Normal
+REV-0797,Honda CR-V 2023,Camioneta,1.45,Muy baja
+REV-0798,Chevrolet Aveo 2022,Compacto,1.54,Muy baja
+REV-0799,Chevrolet Silverado 2024,Compacto,3.25,Alta
+REV-0800,Jeep Wrangler 2022,Deportivo,3.26,Alta
+REV-0802,Chevrolet Silverado 2024,Lujo,1.57,Muy baja
+REV-0803,Ford Escape 2023,Compacto,3.75,Peligrosa
+REV-0804,Mazda CX-5 2023,Lujo,1.47,Muy baja
+REV-0806,Subaru Outback 2024,SUV,2.29,Normal
+REV-0807,Chevrolet Aveo 2022,Deportivo,2.90,Alta
+REV-0808,Ford Ranger 2023,Sedán,2.87,Normal
+REV-0809,Suzuki Vitara 2023,Pickup,1.68,Baja
+REV-0810,KIA Sportage 2023,Pickup,2.74,Normal
+REV-0811,Ford Escape 2023,SUV,2.34,Normal
+REV-0812,VW Tiguan 2024,Sedán,2.73,Normal
+REV-0814,Toyota Corolla 2023,Deportivo,1.66,Baja
+REV-0815,Toyota RAV4 2024,Sedán,1.98,Normal
+REV-0816,Nissan Sentra 2024,SUV,3.67,Peligrosa
+REV-0817,Jeep Wrangler 2022,Minivan,2.09,Normal
+REV-0818,RAM 1500 2023,Camioneta,3.60,Peligrosa
+REV-0819,Jeep Wrangler 2022,Lujo,1.51,Muy baja
+REV-0820,Chevrolet Aveo 2022,Compacto,3.40,Alta
+REV-0821,Audi A4 2024,Minivan,1.58,Muy baja
+REV-0822,VW Jetta 2023,Sedán,2.59,Normal
+REV-0823,Hyundai Tucson 2024,Camioneta,2.48,Normal
+REV-0824,Nissan Sentra 2024,Camioneta,1.96,Normal
+REV-0825,Mazda CX-5 2023,Sedán,1.87,Baja
+REV-0826,Audi A4 2024,Sedán,2.38,Normal
+REV-0827,Ford Ranger 2023,Deportivo,1.94,Normal
+REV-0829,Suzuki Vitara 2023,Minivan,1.60,Baja
+REV-0830,Ford Escape 2023,Deportivo,1.78,Baja
+REV-0831,Mazda 3 2024,Sedán,1.32,Muy baja
+REV-0832,Honda CR-V 2023,Deportivo,3.72,Peligrosa
+REV-0833,RAM 1500 2023,SUV,2.03,Normal
+REV-0834,Toyota Hilux 2024,Pickup,1.86,Baja
+REV-0835,BMW Serie 3 2024,Sedán,1.41,Muy baja
+REV-0836,Suzuki Vitara 2023,Pickup,2.75,Normal
+REV-0837,Hyundai Tucson 2024,Lujo,2.60,Normal
+REV-0838,Chevrolet Silverado 2024,SUV,3.65,Peligrosa
+REV-0839,Subaru Outback 2024,Camioneta,3.28,Alta
+REV-0841,Suzuki Vitara 2023,Pickup,1.93,Normal
+REV-0842,Toyota Corolla 2023,Lujo,3.44,Alta
+REV-0844,Ford Ranger 2023,Pickup,2.17,Normal
+REV-0845,KIA Sportage 2023,Sedán,3.08,Alta
+REV-0846,Nissan Sentra 2024,SUV,1.77,Baja
+REV-0849,Mazda CX-5 2023,Deportivo,1.43,Muy baja
+REV-0850,Toyota Hilux 2024,Lujo,2.55,Normal
+REV-0851,RAM 1500 2023,Camioneta,2.02,Normal
+REV-0852,VW Tiguan 2024,Pickup,1.34,Muy baja
+REV-0853,Toyota RAV4 2024,Camioneta,3.67,Peligrosa
+REV-0854,KIA Sportage 2023,Camioneta,2.02,Normal
+REV-0855,Nissan Sentra 2024,Minivan,3.66,Peligrosa
+REV-0856,Mercedes C300 2023,Compacto,3.35,Alta
+REV-0858,Ford Ranger 2023,Camioneta,2.91,Alta
+REV-0859,Audi A4 2024,Pickup,3.04,Alta
+REV-0861,KIA Sportage 2023,SUV,2.86,Normal
+REV-0862,KIA Sportage 2023,Compacto,3.28,Alta
+REV-0863,Ford Escape 2023,Sedán,2.30,Normal
+REV-0865,VW Jetta 2023,Lujo,3.26,Alta
+REV-0866,Ford Escape 2023,Lujo,2.76,Normal
+REV-0867,Honda Civic 2022,Compacto,1.41,Muy baja
+REV-0869,VW Tiguan 2024,Deportivo,2.04,Normal
+REV-0870,Chevrolet Aveo 2022,Camioneta,2.82,Normal
+REV-0871,Toyota RAV4 2024,Sedán,2.91,Alta
+REV-0872,Ford Ranger 2023,Camioneta,3.42,Alta
+REV-0873,Toyota Hilux 2024,Compacto,2.36,Normal
+REV-0874,Subaru Outback 2024,Deportivo,3.16,Alta
+REV-0875,Toyota Hilux 2024,Pickup,3.41,Alta
+REV-0876,Ford Escape 2023,Camioneta,1.70,Baja
+REV-0877,Nissan Sentra 2024,Deportivo,1.35,Muy baja
+REV-0878,BMW Serie 3 2024,Camioneta,1.62,Baja
+REV-0879,Audi A4 2024,SUV,1.74,Baja
+REV-0880,Mazda CX-5 2023,Deportivo,2.75,Normal
+REV-0881,Subaru Outback 2024,Deportivo,1.91,Baja
+REV-0882,Mercedes C300 2023,Sedán,2.58,Normal
+REV-0883,Jeep Wrangler 2022,SUV,2.24,Normal
+REV-0884,Ford Escape 2023,Minivan,2.70,Normal
+REV-0885,Nissan Frontier 2023,Camioneta,2.51,Normal
+REV-0886,Nissan Frontier 2023,Sedán,2.52,Normal
+REV-0887,Ford Escape 2023,Compacto,2.91,Alta
+REV-0888,VW Tiguan 2024,Sedán,3.45,Alta
+REV-0889,KIA Sportage 2023,Pickup,3.15,Alta
+REV-0890,Subaru Outback 2024,Pickup,2.22,Normal
+REV-0891,Mazda CX-5 2023,Pickup,2.53,Normal
+REV-0892,Toyota Corolla 2023,Camioneta,2.00,Normal
+REV-0893,Mazda 3 2024,Deportivo,1.23,Muy baja
+REV-0894,Ford Escape 2023,Deportivo,3.47,Alta
+REV-0895,Mazda 3 2024,Pickup,1.36,Muy baja
+REV-0897,Jeep Wrangler 2022,Deportivo,1.32,Muy baja
+REV-0898,BMW Serie 3 2024,Minivan,2.10,Normal
+REV-0899,Toyota RAV4 2024,SUV,1.56,Muy baja
+REV-0900,Hyundai Tucson 2024,SUV,1.35,Muy baja
+REV-0901,Nissan Sentra 2024,Minivan,1.49,Muy baja
+REV-0902,Toyota Hilux 2024,SUV,3.02,Alta
+REV-0903,KIA Sportage 2023,Compacto,1.76,Baja
+REV-0904,Chevrolet Silverado 2024,Compacto,2.28,Normal
+REV-0905,Mercedes C300 2023,Pickup,1.20,Muy baja
+REV-0906,VW Jetta 2023,Minivan,2.45,Normal
+REV-0907,Audi A4 2024,Deportivo,1.26,Muy baja
+REV-0908,Subaru Outback 2024,SUV,1.23,Muy baja
+REV-0910,Mercedes C300 2023,Compacto,1.82,Baja
+REV-0911,Audi A4 2024,Camioneta,3.72,Peligrosa
+REV-0912,Toyota Hilux 2024,Deportivo,3.26,Alta
+REV-0913,Nissan Sentra 2024,Compacto,1.52,Muy baja
+REV-0914,Suzuki Vitara 2023,Deportivo,2.16,Normal
+REV-0915,Nissan Sentra 2024,Minivan,1.71,Baja
+REV-0916,Chevrolet Aveo 2022,Sedán,3.36,Alta
+REV-0917,Toyota Hilux 2024,Pickup,1.34,Muy baja
+REV-0918,BMW Serie 3 2024,SUV,2.34,Normal
+REV-0919,RAM 1500 2023,Pickup,1.81,Baja
+REV-0920,Nissan Sentra 2024,Deportivo,3.17,Alta
+REV-0921,Ford Ranger 2023,Minivan,3.03,Alta
+REV-0922,Toyota Corolla 2023,Compacto,2.15,Normal
+REV-0923,Honda Civic 2022,Compacto,1.88,Baja
+REV-0924,Jeep Wrangler 2022,Deportivo,3.31,Alta
+REV-0926,KIA Sportage 2023,Minivan,1.71,Baja
+REV-0927,Ford Ranger 2023,Camioneta,3.69,Peligrosa
+REV-0928,Toyota RAV4 2024,Pickup,2.91,Alta
+REV-0929,Hyundai Tucson 2024,Deportivo,2.01,Normal
+REV-0930,Ford Ranger 2023,Camioneta,1.72,Baja
+REV-0931,Toyota Hilux 2024,Compacto,2.73,Normal
+REV-0932,Toyota Corolla 2023,Lujo,1.22,Muy baja
+REV-0933,Subaru Outback 2024,Minivan,3.21,Alta
+REV-0934,Nissan Frontier 2023,SUV,1.79,Baja
+REV-0935,Nissan Sentra 2024,SUV,2.07,Normal
+REV-0936,Ford Ranger 2023,Lujo,1.86,Baja
+REV-0937,Suzuki Vitara 2023,SUV,2.04,Normal
+REV-0938,Mazda CX-5 2023,SUV,3.34,Alta
+REV-0939,Mazda CX-5 2023,Lujo,3.61,Peligrosa
+REV-0940,Nissan Frontier 2023,Sedán,2.11,Normal
+REV-0941,Chevrolet Aveo 2022,Minivan,3.14,Alta
+REV-0942,Suzuki Vitara 2023,Deportivo,1.26,Muy baja
+REV-0943,Ford Ranger 2023,Lujo,2.83,Normal
+REV-0944,Nissan Sentra 2024,Pickup,2.56,Normal
+REV-0945,KIA Sportage 2023,Camioneta,3.30,Alta
+REV-0946,Toyota Hilux 2024,Lujo,1.44,Muy baja
+REV-0947,Honda CR-V 2023,Lujo,1.81,Baja
+REV-0948,Mazda 3 2024,SUV,3.68,Peligrosa
+REV-0949,Jeep Wrangler 2022,Deportivo,1.38,Muy baja
+REV-0950,Toyota Corolla 2023,Minivan,1.54,Muy baja
+REV-0951,Hyundai Tucson 2024,Pickup,3.40,Alta
+REV-0952,Honda Civic 2022,Sedán,2.38,Normal
+REV-0953,Audi A4 2024,Lujo,1.33,Muy baja
+REV-0954,Toyota Corolla 2023,Pickup,3.21,Alta
+REV-0955,Ford Escape 2023,Pickup,2.98,Alta
+REV-0956,Toyota Hilux 2024,Camioneta,2.03,Normal
+REV-0957,Chevrolet Silverado 2024,Compacto,3.03,Alta
+REV-0958,Hyundai Tucson 2024,Minivan,1.49,Muy baja
+REV-0959,Subaru Outback 2024,SUV,2.58,Normal
+REV-0960,RAM 1500 2023,Minivan,3.46,Alta
+REV-0961,Mazda 3 2024,SUV,3.36,Alta
+REV-0962,Jeep Wrangler 2022,Lujo,1.53,Muy baja
+REV-0963,Ford Escape 2023,Minivan,1.54,Muy baja
+REV-0964,Nissan Sentra 2024,Sedán,2.36,Normal
+REV-0965,BMW Serie 3 2024,Compacto,2.66,Normal
+REV-0966,Chevrolet Silverado 2024,Deportivo,3.30,Alta
+REV-0967,Ford Escape 2023,Sedán,3.71,Peligrosa
+REV-0968,Nissan Sentra 2024,SUV,1.21,Muy baja
+REV-0969,Ford Ranger 2023,Minivan,1.29,Muy baja
+REV-0970,Audi A4 2024,Pickup,2.04,Normal
+REV-0971,RAM 1500 2023,Minivan,1.74,Baja
+REV-0972,Ford Ranger 2023,SUV,2.00,Normal
+REV-0973,Nissan Sentra 2024,Lujo,1.71,Baja
+REV-0974,Mercedes C300 2023,Deportivo,2.39,Normal
+REV-0975,Ford Escape 2023,Lujo,1.98,Normal
+REV-0976,Chevrolet Silverado 2024,Compacto,2.53,Normal
+REV-0977,Honda Civic 2022,SUV,1.32,Muy baja
+REV-0978,RAM 1500 2023,Minivan,1.30,Muy baja
+REV-0979,Toyota RAV4 2024,Lujo,2.73,Normal
+REV-0980,RAM 1500 2023,Minivan,2.17,Normal
+REV-0981,Honda CR-V 2023,SUV,2.95,Alta
+REV-0982,Chevrolet Silverado 2024,Deportivo,1.41,Muy baja
+REV-0984,Toyota Hilux 2024,Sedán,2.08,Normal
+REV-0985,Toyota Corolla 2023,Lujo,2.89,Alta
+REV-0986,Audi A4 2024,Lujo,3.15,Alta
+REV-0987,Hyundai Tucson 2024,Sedán,2.84,Normal
+REV-0988,Ford Escape 2023,Camioneta,1.71,Baja
+REV-0989,Ford Ranger 2023,Minivan,1.48,Muy baja
+REV-0990,BMW Serie 3 2024,Deportivo,2.88,Normal
+REV-0991,Honda CR-V 2023,Minivan,1.73,Baja
+REV-0992,Audi A4 2024,Camioneta,1.96,Normal
+REV-0993,Honda CR-V 2023,Deportivo,2.53,Normal
+REV-0994,Subaru Outback 2024,Sedán,1.34,Muy baja
+REV-0995,Audi A4 2024,SUV,3.38,Alta
+REV-0996,Nissan Sentra 2024,Minivan,2.58,Normal
+REV-0997,Nissan Frontier 2023,Lujo,1.58,Muy baja
+REV-0998,Suzuki Vitara 2023,Pickup,2.90,Alta
+REV-0999,Mazda 3 2024,Camioneta,2.53,Normal
+REV-1000,Nissan Frontier 2023,Lujo,2.77,Normal
