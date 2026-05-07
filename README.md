@@ -17,7 +17,7 @@ Cada reto se encuentra en una carpeta llamada ```reto-semana-<número de semana>
 | 03 |  3 Analizador de ventas | Finalizado | [Ver Reto](./reto-semana-03/README.md) |
 | 04 |  4 Sistema de inventario modular | Finalizado | [Ver Reto](./reto-semana-04/README.md) |
 | EXAM | Examen 1: Sistema de Taller Mecanico | Finalizazo | [Ver Examen](./examen1_pcd/README.md)
-| 05 |  5 Perfilador de datasets |  En progreso | [Ver Reto](./reto-semana-05/README.md) |
-
+| 05 |  5 Perfilador de datasets |  Finalizado | [Ver Reto](./reto-semana-05/README.md) |
+| 06 |  6 Validador de Codigos (RegEx) | Finalizado | [Ver Reto](./reto-semana-06/README.md)|
 
 **by** Roony Roldan Cruz  
