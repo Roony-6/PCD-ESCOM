@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import sys
 import math
 
@@ -40,7 +39,6 @@ def procesar_linea(linea: str) -> tuple | None:
         return producto, cantidad, precio_unitario
         
     except (ValueError, TypeError):
-        # Captura errores si 'cantidad' o 'precio' traen letras en lugar de números
         print(f"Advertencia: Error de tipo numérico en fila - {linea.strip()}", file=sys.stderr)
         return None
 
@@ -56,7 +54,7 @@ def almacenar_datos(producto: str, cantidad: int, precio_unitario: float, produc
 
 def generar_resumen(productos: dict):
     "Genera el resumen de ventas"
-    # Forzamos la salida al stdout por seguridad, aunque print() lo hace por defecto
+    
     print("producto,unidades_vendidas,ingreso_total,precio_promedio", file=sys.stdout)
     
     # Ordenar por ingreso descendente antes de imprimir
