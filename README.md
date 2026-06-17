@@ -19,5 +19,10 @@ Cada reto se encuentra en una carpeta llamada ```reto-semana-<número de semana>
 | EXAM | Examen 1: Sistema de Taller Mecanico | Finalizazo | [Ver Examen](./examen1_pcd/README.md)
 | 05 |  5 Perfilador de datasets |  Finalizado | [Ver Reto](./reto-semana-05/README.md) |
 | 06 |  6 Validador de Codigos (RegEx) | Finalizado | [Ver Reto](./reto-semana-06/README.md)|
+| 08 |  8 Metricas de sensores (NumPy) | Finalizado | [Ver Reto](./reto-semana-08/README.md) |
+| 09 |  9 Detector de anomalias (NumPy) | Finalizado | [Ver Reto](./reto-semana-09/README.md) |
+| 10 |  10 Analizador de acciones (Pandas Series) | Finalizado | [Ver Reto](./reto-semana-10/README.md) |
+| 11 |  11 Gestor de calificaciones (Pandas DataFrames) | Finalizado | [Ver Reto](./reto-semana-11/README.md) |
+| 12 |  12 Analizador de streaming (Pandas avanzado) | Finalizado | [Ver Reto](./reto-semana-12/README.md) |
 
 **by** Roony Roldan Cruz  
